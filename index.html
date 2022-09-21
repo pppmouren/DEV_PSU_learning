@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <title>pppmouren's website</title>
         <link rel="stylesheet" href="./style.css">  <!--css for the stylesheet, herf linked to .css file-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
+                <a id ="tital" href="#home"> Xuhong Lin</a>
                 <ul>
                     <li><a href="#home"> home</a></li> <!--li IS list item-->
                     <li><a href="#about"> about</a></li>
@@ -16,21 +20,21 @@
                 </ul> <!--ul is unorder list-->
             </nav>
                 
-            <!--<ol>
+                <!-- <ol>
                 <li>home</li>
                 <li>about</li>
                 <li>activities</li>
-                <li>contact</li>
-            -->
+                <li>contact</li> -->
+            
             
             
         </header>
         
 
-        <section id="home" style="height: 100vh;">
+        <section class="home" id="home" >
             <div style="display:flex;">  <!-- flex make the element inside the div horizontal-->
                 <div>
-                    <img src="./picture source/myself.webp" style="height: 300px;">
+                    <img src="./picture source/myself.webp" >
                 </div>  <!-- div divide the section-->
                 <div>
                     <h1>Hi, I am Steve!!</h1> <!--  header like h1, h2, to h6 means that the header, the bigger the number the small the size -->
@@ -41,67 +45,67 @@
             
         </section>
 
-        <section id="about" style="height: 100vh;">
-            <div style="display:flex"> 
-                <div>
-                    <h1>about me</h1>
-                    <p>hello, I am steve hahahahhahaha</p>
-                    <p>lollollolololololololololololo</p>
-
-
-                </div>
-                <div>
-                    <img src="./picture source/mc.jpeg" style="height: 250px">
-                    <img src="./picture source/lol.jpeg" style="height:250px">
-                </div>
+        <section class="about" id="about" >
             
+            <div>
+                <h1>about me</h1>
+
+                <p>hello, I am steve hahahahhahaha</p>
+
+                <p>lollollolololololololololololo</p>
+
+
             </div>
+            <div>
+                <img src="./picture source/mc.jpeg" >
+                <img src="./picture source/lol.jpeg" >
+            </div>
+            
+         
         </section>
 
-        <section id="activities" style="height: 100vh;">
+        <section id="activities" >
             <h1>Activities</h1>
-            <div style="display:flex">
+            <div >
                 <div>
-                    <img src="./picture source/run.jpeg" style="height: 250px">
+                    <img src="./picture source/run.jpeg" >
                     <h2>ACTIVITY1</h2>
                     <p>this is running</p>
                 </div>
 
                 <div>
-                    <img src="./picture source/ball.jpeg" style="height: 250px">
+                    <img src="./picture source/ball.jpeg" >
                     <h2>ACTIVITY2</h2>
                     <p>this is ball game</p>
                 </div>
 
                 <div>
-                    <img src="./picture source/tennies.jpeg" style="height: 250px">
+                    <img src="./picture source/tennies.jpeg" >
                     <h2>ACTIVITY3</h2>
                     <p>let's play!</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact" style="height: 100vh;">
-            <h1>contact</h1>
-            <div style="display:flex">
-                <img src="./picture source/beautiful-winter-landscape-scene-ice-river-snow-covered-trees-84606857.jpeg" style="height:500px">
-            
-                <form action="mailto:myemail@gmail.com" method="post" enctype="text/plain">
-                    <div style="display: flex; flex-direction:column">
+        <section id="contact" >
+            <div>
+                <img src="./picture source/beautiful-winter-landscape-scene-ice-river-snow-covered-trees-84606857.jpeg" >
+            </div>
+            <div >
+                <h1>Contact</h1>
+                <form action="mailto:myemail@gmail.com" method="post" enctype="text/plain">   
                         <label>Name:</label>
-                        <input type="text" name="Your name" placeholder="Enter your name here">
+                        <input type="text" name="Your name" placeholder="Enter your name here"> <br>
                         <label>email:</label>
-                        <input type="email" name="Your email" placeholder="Enter your email here">
+                        <input type="email" name="Your email" placeholder="Enter your email here"> <br>
                         <label>message:</label>
-                        <textarea name="Your message" cols="50" row="10" placeholder="enter your message here"></textarea>
-                        <input type="submit">
-                    </div>
-                    
+                        <textarea name="Your message" cols="50" row="10" placeholder="enter your message here"></textarea> <br>
+                        <input type="submit">  
                 </form>
             </div>
         </section>
             <!-- <a href="https://www.google.com/"></a> -->
-        <div></div>
+        <footer></footer>
     </body>
     <script></script>
 </html>
