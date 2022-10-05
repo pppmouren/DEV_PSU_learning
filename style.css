@@ -34,6 +34,7 @@ img{
     width: 400px;
     margin-bottom: 50px;
     border: 12px solid black;
+    /* padding: 10px; */
 }
 
 a{
@@ -44,7 +45,18 @@ a{
 a:hover{
     color: #b3b3b3;
 }
-/* Nav bar */
+
+form{
+    line-height: 2;
+    font-size: 1.25rem;
+
+}
+
+i{
+    font-size: 1.75rem;
+    margin: 0 10px 10px 10px;
+}
+/* Navbar */
 
 nav {
     height: 64px;
@@ -76,15 +88,70 @@ nav ul li{
 
 /* home section */
 
-.home {
+/* .home {
     background-color: #13D3C7;
-}
+} */
 
 .home div {
     transform: translateY(64px);
     margin: 5%;
 }
 
+.backgroundimg{
+    border: 0px;
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
 .about div {
     margin: 8%;
+}
+
+/* Activity section */
+
+.activities {
+    display: block;
+    background-color: #13D3C7;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.activities-container{
+    display: flex;
+    margin: 0 8%;
+    justify-content: space-between;
+}
+
+.activities-container p {
+    padding: 0 8%;
+}
+
+.activities-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+}
+
+
+/* contact section*/
+.contact{
+    justify-content: center;
+}
+
+.contact div{
+    margin: 5%;
+}
+
+/* footer */
+
+footer{
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
 }
