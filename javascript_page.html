@@ -1,0 +1,32 @@
+<!DOCTYPE html>  <!-- for DOM to understand this is html-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>pppmouren's website</title>
+        <link id="pagestyle" rel="stylesheet" href="./style.css">  <!--css for the stylesheet, herf linked to .css file-->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/8831b15068.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <noscript>
+            <h1>sorry, you need javascript to support running this page.</h1>
+        </noscript>
+        <a href="#" onclick="alert('welcome')"> click me!</a>
+
+        <p id="demo">Hello!</p>
+
+        <button onclick="document.getElementById('demo').innerHTML = 'new text';">change text</button>
+        <button onclick="document.getElementById('demo').innerHTML = 'Hello';">revert text</button>
+        <button onclick="myFun();">alert</button>
+        <button onclick="darkMode();">dark mode</button>
+
+        <script src="script.js"></script>
+
+    </body>
+
+
+</html>
